@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.java.codegeek.HotelGameMain">
+  <grid id="27dc6" binding="main_panel" layout-manager="GridLayoutManager" row-count="11" column-count="12" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1208" height="1088"/>
+    </constraints>
+    <properties>
+      <background color="-518"/>
+    </properties>
+    <border type="none">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <grid id="75946" binding="p_b1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e24c1" class="javax.swing.JLabel" binding="h_b1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="B1"/>
+            </properties>
+          </component>
+          <component id="ab8e4" class="javax.swing.JLabel" binding="j_6">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a6796" class="javax.swing.JLabel" binding="t_6">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="56a41" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dec1b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£100"/>
+                </properties>
+              </component>
+              <component id="10a05" class="javax.swing.JLabel" binding="s_b1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="fefed" binding="p_d3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="507c0" class="javax.swing.JLabel" binding="h_d3">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="D3"/>
+            </properties>
+          </component>
+          <component id="6060d" class="javax.swing.JLabel" binding="j_19">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="db34c" class="javax.swing.JLabel" binding="t_19">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="1c7fc" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b66fe" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£220"/>
+                </properties>
+              </component>
+              <component id="99d7f" class="javax.swing.JLabel" binding="s_d3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="c83c6" binding="p_e2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="476ed" class="javax.swing.JLabel" binding="h_e2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="E2"/>
+            </properties>
+          </component>
+          <component id="e901e" class="javax.swing.JLabel" binding="t_23">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="86d77" class="javax.swing.JLabel" binding="j_23">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="7be76" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b0bed" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£250"/>
+                </properties>
+              </component>
+              <component id="1335a" class="javax.swing.JLabel" binding="s_e2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="329dc" binding="p_g1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7300d" class="javax.swing.JLabel" binding="h_g1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="G1"/>
+            </properties>
+          </component>
+          <component id="bc20" class="javax.swing.JLabel" binding="j_31">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2a278" class="javax.swing.JLabel" binding="t_31">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="9190a" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="bcf57" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£350"/>
+                </properties>
+              </component>
+              <component id="63030" class="javax.swing.JLabel" binding="s_g1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="6fee4" class="javax.swing.JLabel" binding="lbl_dice_result">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="32" style="1"/>
+          <foreground color="-4521983"/>
+          <text value="12"/>
+        </properties>
+      </component>
+      <component id="17b0e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="28" style="1"/>
+          <foreground color="-4505856"/>
+          <icon value="com/java/codegeek/icon/icons8-tom-36.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="340d6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="28" style="1"/>
+          <foreground color="-16768325"/>
+          <icon value="com/java/codegeek/icon/icons8-jerry-36.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8dba8" class="javax.swing.JLabel" binding="lbl_dice_j">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="36" style="1"/>
+          <foreground color="-417736"/>
+          <icon value="com/java/codegeek/icon/dice12.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="58f33" class="javax.swing.JLabel" binding="lbl_money_j">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20"/>
+          <foreground color="-4480512"/>
+          <text value="£2000"/>
+        </properties>
+      </component>
+      <component id="9d32d" class="javax.swing.JLabel" binding="lbl_dice_t">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="36" style="1"/>
+          <foreground color="-8882058"/>
+          <icon value="com/java/codegeek/icon/dice12.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="6e8b" binding="p_b2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c2bf5" class="javax.swing.JLabel" binding="h_b2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="B2"/>
+            </properties>
+          </component>
+          <component id="637e1" class="javax.swing.JLabel" binding="j_8">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f5a5" class="javax.swing.JLabel" binding="t_8">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="76fd7" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="be0a5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£100"/>
+                </properties>
+              </component>
+              <component id="3b0e" class="javax.swing.JLabel" binding="s_b2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8e001" binding="p_b3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4a6a" class="javax.swing.JLabel" binding="h_b3">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="B3"/>
+            </properties>
+          </component>
+          <component id="5c6f0" class="javax.swing.JLabel" binding="j_9">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="304" class="javax.swing.JLabel" binding="t_9">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="70f1d" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8d441" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£120"/>
+                </properties>
+              </component>
+              <component id="d8308" class="javax.swing.JLabel" binding="s_b3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="598bd" binding="p_a3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="28e49" class="javax.swing.JLabel" binding="h_a3">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="A3"/>
+            </properties>
+          </component>
+          <component id="62032" class="javax.swing.JLabel" binding="j_4">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="20f01" class="javax.swing.JLabel" binding="t_4">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="b65e2" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="86345" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£70"/>
+                </properties>
+              </component>
+              <component id="eba1c" class="javax.swing.JLabel" binding="s_a3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="45716" binding="p_a2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a6cfe" class="javax.swing.JLabel" binding="h_a2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="A2"/>
+            </properties>
+          </component>
+          <component id="8f7b9" class="javax.swing.JLabel" binding="j_3">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="72146" class="javax.swing.JLabel" binding="t_3">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="1fabc" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2079d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£50"/>
+                </properties>
+              </component>
+              <component id="d6250" class="javax.swing.JLabel" binding="s_a2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="63c54" binding="p_a1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b9046" class="javax.swing.JLabel" binding="h_a1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="A1"/>
+            </properties>
+          </component>
+          <component id="c8877" class="javax.swing.JLabel" binding="j_1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c638d" class="javax.swing.JLabel" binding="t_1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="f91c4" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="baffa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£50"/>
+                </properties>
+              </component>
+              <component id="f6af2" class="javax.swing.JLabel" binding="s_a1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="4bfeb" binding="p_e3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4bca8" class="javax.swing.JLabel" binding="h_e3">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="E3"/>
+            </properties>
+          </component>
+          <component id="1a57f" class="javax.swing.JLabel" binding="t_24">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="be85f" class="javax.swing.JLabel" binding="j_24">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="dcc3b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8bc4c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£270"/>
+                </properties>
+              </component>
+              <component id="4440f" class="javax.swing.JLabel" binding="s_e3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="1733f" binding="p_f1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a624" class="javax.swing.JLabel" binding="h_f1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="F1"/>
+            </properties>
+          </component>
+          <component id="842a4" class="javax.swing.JLabel" binding="t_26">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b0902" class="javax.swing.JLabel" binding="j_26">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="58e91" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e623" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£300"/>
+                </properties>
+              </component>
+              <component id="88bc6" class="javax.swing.JLabel" binding="s_f1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="323bd" binding="p_f2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c53d3" class="javax.swing.JLabel" binding="h_f2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="F2"/>
+            </properties>
+          </component>
+          <component id="2257d" class="javax.swing.JLabel" binding="t_28">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a0a58" class="javax.swing.JLabel" binding="j_28">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="5787f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="587cd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£300"/>
+                </properties>
+              </component>
+              <component id="47528" class="javax.swing.JLabel" binding="s_f2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="7e525" binding="p_f3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bc53f" class="javax.swing.JLabel" binding="h_f3">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="F3"/>
+            </properties>
+          </component>
+          <component id="ee6ed" class="javax.swing.JLabel" binding="t_29">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1ac94" class="javax.swing.JLabel" binding="j_29">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="132ab" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2d14e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£320"/>
+                </properties>
+              </component>
+              <component id="7404a" class="javax.swing.JLabel" binding="s_f3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="89e92" binding="p_e1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="41008" class="javax.swing.JLabel" binding="h_e1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="E1"/>
+            </properties>
+          </component>
+          <component id="5a4fe" class="javax.swing.JLabel" binding="t_21">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b28f1" class="javax.swing.JLabel" binding="j_21">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="1b436" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="439" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£250"/>
+                </properties>
+              </component>
+              <component id="dcafe" class="javax.swing.JLabel" binding="s_e1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="c9d80" binding="p_d2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+          <foreground color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1458c" class="javax.swing.JLabel" binding="h_d2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="D2"/>
+            </properties>
+          </component>
+          <component id="76d54" class="javax.swing.JLabel" binding="j_18">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="98600" class="javax.swing.JLabel" binding="t_18">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="b9394" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="931f3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£200"/>
+                </properties>
+              </component>
+              <component id="8cf9" class="javax.swing.JLabel" binding="s_d2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="1c392" binding="p_d1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+          <foreground color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="530df" class="javax.swing.JLabel" binding="h_d1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="D1"/>
+            </properties>
+          </component>
+          <component id="b459d" class="javax.swing.JLabel" binding="j_16">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4b5cf" class="javax.swing.JLabel" binding="t_16">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="271b0" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d8c52" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£200"/>
+                </properties>
+              </component>
+              <component id="7994d" class="javax.swing.JLabel" binding="s_d1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="b1c6f" binding="p_c3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="42f51" class="javax.swing.JLabel" binding="h_c3">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="C3"/>
+            </properties>
+          </component>
+          <component id="6958f" class="javax.swing.JLabel" binding="j_14">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1e7f5" class="javax.swing.JLabel" binding="t_14">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="ca030" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="273be" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£170"/>
+                </properties>
+              </component>
+              <component id="83318" class="javax.swing.JLabel" binding="s_c3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="be841" binding="p_c2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="58ae3" class="javax.swing.JLabel" binding="h_c2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="C2"/>
+            </properties>
+          </component>
+          <component id="29c3b" class="javax.swing.JLabel" binding="j_13">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4339a" class="javax.swing.JLabel" binding="t_13">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="54d68" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b80df" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£150"/>
+                </properties>
+              </component>
+              <component id="494f5" class="javax.swing.JLabel" binding="s_c2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="7c0c" binding="p_c1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d7660" class="javax.swing.JLabel" binding="h_c1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="C1"/>
+            </properties>
+          </component>
+          <component id="fb741" class="javax.swing.JLabel" binding="j_11">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="23ea0" class="javax.swing.JLabel" binding="t_11">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="7dedb" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a5548" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£150"/>
+                </properties>
+              </component>
+              <component id="89faf" class="javax.swing.JLabel" binding="s_c1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8cffa" binding="p_g3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ad5eb" class="javax.swing.JLabel" binding="h_g3">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="G3"/>
+            </properties>
+          </component>
+          <component id="8036c" class="javax.swing.JLabel" binding="j_34">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="88643" class="javax.swing.JLabel" binding="t_34">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="6fd51" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="13aff" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£370"/>
+                </properties>
+              </component>
+              <component id="34e99" class="javax.swing.JLabel" binding="s_g3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="73982" binding="p_h1" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ab5e5" class="javax.swing.JLabel" binding="h_h1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="H1"/>
+            </properties>
+          </component>
+          <component id="de0f5" class="javax.swing.JLabel" binding="j_36">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="290e6" class="javax.swing.JLabel" binding="t_36">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="319dd" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5caa6" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£400"/>
+                </properties>
+              </component>
+              <component id="1f69c" class="javax.swing.JLabel" binding="s_h1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="dd885" binding="p_h2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="44bf0" class="javax.swing.JLabel" binding="h_h2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="H2"/>
+            </properties>
+          </component>
+          <component id="7c8d5" class="javax.swing.JLabel" binding="j_38">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="656b3" class="javax.swing.JLabel" binding="t_38">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="c888" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1d0fc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£400"/>
+                </properties>
+              </component>
+              <component id="3ca88" class="javax.swing.JLabel" binding="s_h2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="738ff" binding="p_h3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f6057" class="javax.swing.JLabel" binding="h_h3">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="H3"/>
+            </properties>
+          </component>
+          <component id="ce95a" class="javax.swing.JLabel" binding="j_39">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="38ced" class="javax.swing.JLabel" binding="t_39">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="3eaea" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="423c1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£420"/>
+                </properties>
+              </component>
+              <component id="d25e8" class="javax.swing.JLabel" binding="s_h3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="bc027" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="8" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="513fc" class="javax.swing.JLabel" binding="j_2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="17f52" class="javax.swing.JLabel" binding="t_2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="370f5" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3c6b7" class="javax.swing.JLabel" binding="j_5">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="24c3d" class="javax.swing.JLabel" binding="t_5">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4e5d7" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="67506" class="javax.swing.JLabel" binding="j_7">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bff04" class="javax.swing.JLabel" binding="t_7">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5b26d" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3728f" class="javax.swing.JLabel" binding="j_10">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4ce01" class="javax.swing.JLabel" binding="t_10">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7f69c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fa36d" class="javax.swing.JLabel" binding="j_12">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8d745" class="javax.swing.JLabel" binding="t_12">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="be1c3" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4a551" class="javax.swing.JLabel" binding="j_15">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c15d6" class="javax.swing.JLabel" binding="t_15">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2646" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2ac66" class="javax.swing.JLabel" binding="j_17">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="18b8e" class="javax.swing.JLabel" binding="t_17">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2625f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bf38b" class="javax.swing.JLabel" binding="j_20">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dd528" class="javax.swing.JLabel" binding="t_20">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="962d7" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d9913" class="javax.swing.JLabel" binding="j_22">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6194" class="javax.swing.JLabel" binding="t_22">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2ac35" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="11c90" class="javax.swing.JLabel" binding="j_25">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9cc78" class="javax.swing.JLabel" binding="t_25">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="17825" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="eec77" class="javax.swing.JLabel" binding="j_27">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="34f2e" class="javax.swing.JLabel" binding="t_27">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6ac40" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8e622" class="javax.swing.JLabel" binding="j_30">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2f497" class="javax.swing.JLabel" binding="t_30">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a70fb" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c025c" class="javax.swing.JLabel" binding="j_37">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6ca3" class="javax.swing.JLabel" binding="t_37">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4f3fc" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d9651" class="javax.swing.JLabel" binding="j_0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c90a3" class="javax.swing.JLabel" binding="t_0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="53544" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="81b85" class="javax.swing.JLabel" binding="j_35">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ffbda" class="javax.swing.JLabel" binding="t_35">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="645f6" class="javax.swing.JLabel" binding="lbl_money_t">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="20"/>
+          <foreground color="-4480512"/>
+          <text value="£2000"/>
+        </properties>
+      </component>
+      <component id="96598" class="javax.swing.JButton" binding="btn_dice">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16756285"/>
+          <font name="Consolas" size="28" style="1"/>
+          <foreground color="-16729325"/>
+          <icon value="com/java/codegeek/icon/dice12.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="7bc3e" binding="p_g2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12860617"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a2f61" class="javax.swing.JLabel" binding="h_g2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="20" style="1"/>
+              <text value="G2"/>
+            </properties>
+          </component>
+          <component id="87bd6" class="javax.swing.JLabel" binding="j_33">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="71cf0" class="javax.swing.JLabel" binding="t_33">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="69856" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a535d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="£350"/>
+                </properties>
+              </component>
+              <component id="206f2" class="javax.swing.JLabel" binding="s_g2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="16"/>
+                  <text value="★0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="4c93b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-518"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="41199" class="javax.swing.JLabel" binding="j_32">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-16768325"/>
+              <icon value="com/java/codegeek/icon/jerry-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ba7a0" class="javax.swing.JLabel" binding="t_32">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-4505856"/>
+              <icon value="com/java/codegeek/icon/tom-sel.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cf3dd" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8f8a1" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+          </component>
+          <component id="bcad5" class="javax.swing.JButton" binding="btn_d1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-50161"/>
+              <text value="Dice P1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4ef25" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c73cb" class="javax.swing.JSpinner" binding="spinner2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-721409"/>
+            </properties>
+          </component>
+          <component id="a3e0e" class="javax.swing.JButton" binding="btn_d2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11756861"/>
+              <text value="Dice P2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
